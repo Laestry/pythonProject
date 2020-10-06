@@ -5,7 +5,7 @@ target = int(input("Пожалуйста напишите первую цифр�
 while counter >= 1:
     num = int(input("Напишите цифру: "))
 
-    if flag == 0:
+    if not flag:
         target -= num
         flag = 1
     else:
