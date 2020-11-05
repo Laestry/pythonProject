@@ -20,8 +20,6 @@ def has_upper(input_string):
 
 
 def create_password(how_many, how_long):
-    password = ''
-
     for _ in range(how_many):
         numPass.clear()
         while True:
